@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<rect width="400" height="400" fill="#EDE7DA"/>
+<circle cx="200" cy="200" r="90" fill="none" stroke="#B23A2F" stroke-width="2" stroke-dasharray="6 6"/>
+<text x="200" y="205" font-family="monospace" font-size="16" fill="#6b6355" text-anchor="middle">PRODUCT PHOTO 4</text>
+<text x="200" y="228" font-family="monospace" font-size="11" fill="#948c7b" text-anchor="middle">replace this file</text>
+</svg>

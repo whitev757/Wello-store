@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>General Goods — Shop</title>
+<meta name="description" content="A small batch of good, useful things.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=Work+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#" class="brand">General Goods</a>
+    <nav class="header-nav">
+      <span class="ship-note">Ships in 2–3 days</span>
+      <button class="cart-toggle" id="cartToggle" aria-label="Open cart">
+        Cart <span class="cart-count" id="cartCount">0</span>
+      </button>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap hero-inner">
+    <p class="eyebrow">Est. 2026 · Small batch</p>
+    <h1>Good things,<br>plainly made.</h1>
+    <p class="hero-sub">A short list of objects worth keeping. Each one shipped with a packing slip, not a press release.</p>
+  </div>
+</section>
+
+<main class="wrap">
+  <section id="shop">
+    <div class="section-head">
+      <h2>The Catalog</h2>
+      <span class="count-label" id="productCountLabel"></span>
+    </div>
+    <div class="product-grid" id="productGrid">
+      <!-- products injected by app.js -->
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p>General Goods — a small store for small orders.</p>
+    <p class="footer-note">Payments handled securely by Stripe. We never see or store your card details.</p>
+  </div>
+</footer>
+
+<!-- Cart drawer styled as a packing slip -->
+<div class="cart-scrim" id="cartScrim"></div>
+<aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+  <div class="slip">
+    <div class="slip-head">
+      <div>
+        <p class="slip-label">PACKING SLIP</p>
+        <p class="slip-sub">General Goods</p>
+      </div>
+      <button class="cart-close" id="cartClose" aria-label="Close cart">&times;</button>
+    </div>
+    <div class="slip-line"></div>
+    <div class="slip-items" id="slipItems">
+      <p class="empty-note">Your slip is empty.</p>
+    </div>
+    <div class="slip-line"></div>
+    <div class="slip-totals" id="slipTotals"></div>
+    <button class="checkout-btn" id="checkoutBtn" disabled>Checkout</button>
+    <p class="slip-footnote">Shipping address &amp; payment collected on the next step, handled by Stripe.</p>
+  </div>
+</aside>
+
+<script src="app.js"></script>
+</body>
+</html>

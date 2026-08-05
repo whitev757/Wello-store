@@ -1,0 +1,50 @@
+[
+  {
+    "id": "sku-001",
+    "name": "Terracotta Plant Pot",
+    "description": "Hand-thrown 6\" terracotta pot with drainage hole. Unglazed for natural aging.",
+    "price": 1800,
+    "stock": 14,
+    "image": "images/product-1.svg"
+  },
+  {
+    "id": "sku-002",
+    "name": "Canvas Tote Bag",
+    "description": "Heavyweight 12oz cotton canvas, reinforced straps, holds up to 20lbs.",
+    "price": 2400,
+    "stock": 30,
+    "image": "images/product-2.svg"
+  },
+  {
+    "id": "sku-003",
+    "name": "Oak Coasters (Set of 4)",
+    "description": "Solid oak, food-safe finish, cork backing to protect surfaces.",
+    "price": 3200,
+    "stock": 8,
+    "image": "images/product-3.svg"
+  },
+  {
+    "id": "sku-004",
+    "name": "Ceramic Mug",
+    "description": "12oz stoneware mug, dishwasher and microwave safe.",
+    "price": 1600,
+    "stock": 22,
+    "image": "images/product-4.svg"
+  },
+  {
+    "id": "sku-005",
+    "name": "Beeswax Candle",
+    "description": "100% beeswax, cotton wick, approx. 40 hour burn time.",
+    "price": 1400,
+    "stock": 0,
+    "image": "images/product-5.svg"
+  },
+  {
+    "id": "sku-006",
+    "name": "Linen Tea Towel",
+    "description": "Pre-washed European linen, generous 20\"x28\" size.",
+    "price": 1200,
+    "stock": 40,
+    "image": "images/product-6.svg"
+  }
+]
